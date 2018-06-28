@@ -14,8 +14,8 @@ object Form2: TForm2
   PixelsPerInch = 96
   TextHeight = 13
   object Edit1: TEdit
-    Left = 80
-    Top = 112
+    Left = 0
+    Top = 0
     Width = 121
     Height = 21
     TabOrder = 0
