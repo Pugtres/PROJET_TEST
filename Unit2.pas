@@ -9,6 +9,7 @@ uses
 type
   TForm2 = class(TForm)
     Edit1: TEdit;
+    procedure cl(Sender: TObject);
   private
     { Déclarations privées }
   public
@@ -21,5 +22,10 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm2.cl(Sender: TObject);
+begin
+  MessageBox('ici');
+end;
 
 end.
