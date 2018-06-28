@@ -20,5 +20,6 @@ object Form2: TForm2
     Height = 21
     TabOrder = 0
     Text = 'Edit1'
+    OnClick = cl
   end
 end
